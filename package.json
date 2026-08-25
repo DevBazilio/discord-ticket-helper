@@ -1,0 +1,47 @@
+{
+  "name": "discord-ticket-helper",
+  "version": "1.0.0",
+  "description": "HTML-транскриптор каналов Discord и тикет-систем. Генерирует красивые самодостаточные HTML-файлы с полной историей переписки, эмбедами, вложениями, компонентами и Markdown-разметкой.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --check src/index.js",
+    "example": "node examples/basic.js"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "transcript",
+    "ticket",
+    "html",
+    "export",
+    "log",
+    "archive"
+  ],
+  "author": "Aetheris Project",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevBazilio/discord-ticket-helper.git"
+  },
+  "homepage": "https://github.com/DevBazilio/discord-ticket-helper#readme",
+  "bugs": {
+    "url": "https://github.com/DevBazilio/discord-ticket-helper/issues",
+    "email": "glova.yurii@gmail.com"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "peerDependencies": {
+    "discord.js": ">=14.0.0"
+  },
+  "peerDependenciesMeta": {
+    "discord.js": {
+      "optional": true
+    }
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
